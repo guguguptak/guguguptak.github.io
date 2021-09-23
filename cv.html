@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AZydczykCV</title>
+    <link rel="stylesheet" href="cv.css"/>
+    <script src="https://kit.fontawesome.com/fa7794d0dc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+    <h1>Agnieszka <span class="strikethrough">Z</span>ydczyk</h1>
+</header>
+<cv-content>
+    <cv-column>
+        <section id="contact">
+            <img src="photo.jpg" alt="" id="photo"/>
+            <p>
+                <i class="icon fas fa-birthday-cake"></i>
+                28 August 1987
+            </p>
+            <p class="address">
+                <i class="icon fas fa-map-marker-alt"></i>
+                Fröseke Nylund 3<br/>
+                36497 Fröseke<br/>
+                Sweden
+            </p>
+            <p>
+                <i class="icon fas fa-at"></i>
+                <a href="mailto:a.zydczyk@gmail.com">a.zydczyk@gmail.com</a>
+            </p>
+            <p>
+                <i class="icon fas fa-phone"></i>
+                +48 663 666 770
+            </p>
+        </section>
+        <section id="languages">
+            <h6>languages</h6>
+            <ul>
+                <li><b>English:</b>
+                    B2
+                </li>
+                <li><b>Norwegian:</b>
+                    A1
+                </li>
+                <li><b>Polish:</b>
+                    native
+                </li>
+            </ul>
+        </section>
+        <section id="interests">
+            <h6>interests</h6>
+            <ul class="raw indent">
+                <li><i class="icon fas fa-people-arrows"></i>social psychology</li>
+                <li><i class="icon fas fa-spider"></i>horrors and thrillers (books and movies)</li>
+                <li><i class="icon fab fa-steam"></i>computer games</li>
+            </ul>
+        </section>
+    </cv-column>
+    <cv-column>
+        <section id="experience">
+            <h6>work experience</h6>
+            <ul>
+                <li>
+                    <time-span>10.2020 – now</time-span>
+                    <cv-occupation>independent Unity game designer</cv-occupation>
+                    <cv-technologies>Unity 2020, Plastic SCM</cv-technologies>
+                </li>
+                <li>
+                    <time-span>07.2018 – 08.2020</time-span>
+                    <cv-occupation>therapy coordinator/therapist</cv-occupation>
+                    <cv-location>at Authism Therapy Center, Gdansk</cv-location>
+                </li>
+                <li>
+                    <time-span>08.2017 – 06.2018</time-span>
+                    <cv-occupation>front-end developer</cv-occupation>
+                    for <a href="https://rowerowymaj.eu">Rowerowy Maj campaign</a>
+                    <cv-technologies>SPA in Vue/Vuex/JS (ES2018), npm, webpack, CSS3, Bulma, WordPress, Git, GitHub
+                    </cv-technologies>
+                </li>
+                <li>
+                    <time-span>12.2016 – 11.2017</time-span>
+                    <cv-occupation>deputy manager</cv-occupation>
+                    <cv-location>at Occupational Therapy Workshops, Radomsko</cv-location>
+                </li>
+                <li>
+                    <time-span>01.2016 – 11.2016</time-span>
+                    <cv-occupation>psychologist</cv-occupation>
+                    <cv-location>at Occupational Therapy Workshops, Radomsko</cv-location>
+                </li>
+            </ul>
+        </section>
+        <section id="skills">
+            <h6>other IT skills</h6>
+            <ul class="raw">
+                <li><i class="icon fas fa-cog"></i>C/C++ (novice)</li>
+                <li><i class="icon fab fa-react"></i>React.js (novice)</li>
+            </ul>
+        </section>
+        <section id="education">
+            <h6>education</h6>
+            <ul>
+                <li>
+                    <time-span>2010 – 2015</time-span>
+                    <cv-occupation>Psychology (Master’s Degree)</cv-occupation>
+                    <cv-location>at Jagiellonian University in Kraków</cv-location>
+                </li>
+                <li>
+                    <time-span>2006 – 2009</time-span>
+                    <cv-occupation>International Relations</cv-occupation>
+                    <cv-location>at Jan Kochanowski University in Kielce</cv-location>
+                </li>
+            </ul>
+        </section>
+    </cv-column>
+</cv-content>
+</body>
+</html>

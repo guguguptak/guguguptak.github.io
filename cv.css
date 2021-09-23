@@ -1,0 +1,131 @@
+@font-face {
+    font-family: "Romelio Sans";
+    src: url("romelio.ttf");
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    --color-main: #fff;
+    --color-secondary: #00a0a0;
+    width: 1000px;
+    height: 1410px;
+    font-size: 21px;
+}
+
+body {
+    font-family: "Romelio Sans", sans-serif;
+    background-color: var(--color-main);
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    column-count: 2;
+}
+
+h1, h6 {
+    color: var(--color-main);
+    background: var(--color-secondary);
+    text-transform: uppercase;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem 1rem 0.5rem;
+}
+
+h6 {
+    margin: 0;
+    font-size: 1.5rem;
+    padding: 0.5rem 0 0 1rem
+    /*width: 50%;*/
+}
+
+#photo {
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+
+#interests {
+    /*margin-top: 2rem;*/
+    justify-content: end;
+}
+
+li {
+    margin: 1rem 0;
+}
+
+.icon {
+    color: var(--color-secondary);
+    margin-right: 0.5rem;
+}
+
+ul.raw {
+    padding-left: 0.5rem;
+}
+
+ul.raw > li {
+    list-style-type: none;
+}
+
+ul.raw.indent {
+    padding-left: 1.5rem;
+}
+
+ul.raw.indent > li > i.icon {
+    margin-left: -1.5rem;
+}
+
+cv-content {
+    padding: 2% 4%;
+    display: flex;
+}
+
+cv-column {
+    display: flex;
+    flex-direction: column;
+}
+
+cv-column:first-child {
+    flex-basis: 32%;
+    margin-right: 5%;
+    justify-content: space-between;
+}
+
+cv-column:nth-child(2) {
+    flex-basis: 69%;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+.address {
+    text-indent: -0.9rem;
+    margin-left: 1.9rem;
+}
+
+cv-technologies {
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+cv-occupation {
+    font-weight: bold;
+}
+
+cv-location {
+    display: block;
+}
+
+time-span {
+    display: block;
+    margin-right: 5rem;
+}
