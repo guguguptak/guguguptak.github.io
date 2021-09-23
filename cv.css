@@ -129,3 +129,17 @@ time-span {
     display: block;
     margin-right: 5rem;
 }
+
+a.li-logo, a.li-logo:visited {
+    color: var(--color-main);
+    float: right;
+    position: relative;
+    top: -1rem;
+    font-size: 3rem;
+    right: 0.1rem;
+
+}
+
+a, a:visited {
+    color: var(--color-secondary);
+}
